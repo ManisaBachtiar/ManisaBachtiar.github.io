@@ -1,218 +1,690 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/bf5f902c48.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="style.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik:wght@300;400;500;600&display=swap"
-    rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/bf5f902c48.js" crossorigin="anonymous"></script>
-</head>
+  <body
+    class="2sm:bg-green-400 2xl:bg-rose-600 lg:bg-pink-900 xl:bg-red:500 md:bg-slate-700 sm:bg-blue-600 xs:bg-green-600"
+  >
+    <div
+      class="bg-pink-800 2sm:w-[90%] sm:w-[100%] xs:w-[100%] lg:w-[90%] m-auto lg:h-[600px]"
+    >
+      <div
+        class="flex z-20 top-0 lg:w-[90%] bg-pink-800 fixed 2xs:w-full items-center border-b border-slate-800 justify-between p-8 h-12"
+      >
+        <h4
+          class="font-custom text-xl font-semibold lg:4 lg:ml-6 text-pink-100"
+        >
+          Manisa
+        </h4>
+        <div class="lg:hidden ">
+          <i class=" fa-solid fa-bars fa-xl text-pink-200 "></i>
+        </div>
+        <ul
+          class="sm:flex gap-4 2xs:hidden xs:hidden mr-7 list-none font-custom font-semibold"
+        >
+          <li class="text-pink-100">Home</li>
+          <li class="text-pink-100">About</li>
+          <li class="text-pink-100">Project</li>
+          <li class="text-pink-100">Contact</li>
+        </ul>
+      </div>
+      <div class="sm:px-16 px-5 grid 2sm:grid-cols-2 pb-12">
+        <div class="ml-[0.7rem] sm:ml-[0.2rem]">
+          <h3
+            class="text-slate-100 font-custom 2xs:text-2xl xs:text-2xl lg:text-4xl 2xs:mt-24 xs:mt-9 lg:mt-28"
+          >
+            Hello! My name is
+          </h3>
+          <h1
+            class="font-custom mt-3 text-pink-200 font-medium xs:text-6xl 2xs:text-6xl lg:text-7xl sm:whitespace-nowrap"
+          >
+            Manisa Bachtiar
+          </h1>
+          <h3
+            class="text-slate-200 font-thin lg:text-2xl 2xs:text-xl font-custom w-[90%] mt-4 ml-1"
+          >
+            A frontend developer, graphic designer, and UI/UX designer from
+            Indonesia.
+          </h3>
+          <button
+            class="font-custom font-medium bg-pink-200 text-gray-900 mt-5 rounded-md py-3 px-5"
+            type="submit"
+          >
+            Who Am I?
+          </button>
+        </div>
+        <img
+          class="translate-y-[3.8rem] sm:translate-y-16 justify-self-end sm:translate-x-12 self-end md:w-4/5"
+          src="img/u.png"
+          alt=""
+        />
+      </div>
+      <div class="bg-pink-200 h-32"></div>
+      <!-- ini bagian section -->
+      <div class="bg-slate-900 h-96">
+        <div class="flex">
+          <div class="w-1/2 pl-10 pt-8 text-slate-200">
+            <h3
+              class="text-3xl font-semibold m-5 ml-10 font-custom text-pink-200 text-center"
+            >
+              Who Am I?
+            </h3>
+            <p class="w-6/5 ml-5 border border-slate-200 p-5 font-custom">
+              Hi, I'm Manisa Bachtiar. I love designing websites and have a
+              special interest in coding, especially with Javascript. Currently,
+              I work as a graphic designer at Zetta Creative. I'm actively
+              looking for part-time opportunities in frontend development. If
+              you're interested in collaborating, please reach out. It's worth
+              mentioning that I'm still a beginner in this field.
+            </p>
+          </div>
+          <div class="text-slate-200 w-1/2 pt-8 ml-9">
+            <h3
+              class="font-custom w-3/4 text-pink-200 text-3xl font-semibold m-5 ml-[46px] text-center"
+            >
+              My Interest
+            </h3>
+            <div class="w-4/5 ml-9 border border-slate-200 p-5">
+              <p class="font-custom">
+                I love designing UI/UX using Figma, creating simple designs in
+                Canva, drawing anime character in IbisPaint X and developing
+                websites with Javascript and Tailwind. Currently, I'm learning
+                the basic of React, and have a plan to learn Vue as well.
+              </p>
+              <div class="flex gap-4 mt-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-html5"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                  <path
+                    d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-css3"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                  <path
+                    d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-javascript"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                  <path d="M7.5 8h3v8l-2 -1" />
+                  <path
+                    d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-tailwind"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-git"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                  <path d="M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                  <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                  <path d="M12 15v-6" />
+                  <path d="M15 11l-2 -2" />
+                  <path d="M11 7l-1.9 -1.9" />
+                  <path
+                    d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-react"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102"
+                  />
+                  <path
+                    d="M17.692 15.289c2.603 -.722 4.308 -1.926 4.308 -3.289c0 -2.21 -4.477 -4 -10 -4c-.773 0 -1.526 .035 -2.25 .102"
+                  />
+                  <path
+                    d="M6.305 15.287c-.676 2.615 -.485 4.693 .695 5.373c1.913 1.105 5.703 -1.877 8.464 -6.66c.387 -.67 .733 -1.339 1.036 -2"
+                  />
+                  <path
+                    d="M17.694 8.716c.677 -2.616 .487 -4.696 -.694 -5.376c-1.913 -1.105 -5.703 1.877 -8.464 6.66c-.387 .67 -.733 1.34 -1.037 2"
+                  />
+                  <path
+                    d="M12 5.424c-1.925 -1.892 -3.82 -2.766 -5 -2.084c-1.913 1.104 -1.226 5.877 1.536 10.66c.386 .67 .793 1.304 1.212 1.896"
+                  />
+                  <path
+                    d="M12 18.574c1.926 1.893 3.821 2.768 5 2.086c1.913 -1.104 1.226 -5.877 -1.536 -10.66c-.375 -.65 -.78 -1.283 -1.212 -1.897"
+                  />
+                  <path
+                    d="M11.5 12.866a1 1 0 1 0 1 -1.732a1 1 0 0 0 -1 1.732z"
+                  />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-figma"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M15 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                  <path
+                    d="M6 3m0 3a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v0a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3z"
+                  />
+                  <path d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15" />
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="icon icon-tabler icon-tabler-brand-vscode"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M16 3v18l4 -2.5v-13z" />
+                  <path
+                    d="M9.165 13.903l-4.165 3.597l-2 -1l4.333 -4.5m1.735 -1.802l6.932 -7.198v5l-4.795 4.141"
+                  />
+                  <path d="M16 16.5l-11 -10l-2 1l13 13.5" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<body class="bg-pink-900 w-1/1 h-96">
-  <div class="bg-pink-800 w-[90%] m-auto h-[600px]">
-  <div class="flex items-center border-b border-slate-800 justify-between  p-8 h-12">
-    <h4 class="font-custom text-xl font-semibold ml-6 text-pink-100 ">Manisa</h4>
-    <ul class="flex gap-4 mr-7 list-none font-custom font-semibold">
-      <li class="text-pink-100">Home</li>
-      <li class="text-pink-100">About</li>
-      <li class="text-pink-100">Project</li>
-      <li class="text-pink-100">Contact</li>
-    </ul>
-  </div>
-    <div class="flex h-96   pl-16">
-      <div class="flex-1">
-        <h3 class="text-slate-100 font-custom text-4xl mt-16 ml-1 font-base">
-          Hello! My name is
+      <div
+        class="text-left h-[630px] pl-7 border-t pt-5 bg-slate-900 border-slate-600 text-white"
+      >
+        <h3 class="mt-5 font-custom font-semibold ml-4 text-pink-200 text-3xl">
+          My Projects
         </h3>
-        <h1 class="font-custom mt-3 text-pink-200 font-medium text-7xl ">Manisa Bachtiar</h1>
-        <h3 class="text-slate-200 font-thin text-2xl font-custom w-[90%] mt-4 ml-1">
-          A frontend developer, graphic designer, and UI/UX designer from Indonesia.
-        </h3>
-        <button class="font-custom font-semibold bg-pink-200 text-gray-900 mt-5 ml-1 rounded-md h-12 w-1/6 " type="submit">
-          Who Am I?
-        </button>
-      </div> 
-        <div class="mb-[3px] mr-6 " style="background-image: url('img/u.png'); background-size: cover; width: 38%; height: 420px;"></div>
+        <div class="flex">
+          <div
+            class="w-[45%] flex items-center m-5 bg-slate-800 h-52 rounded-md"
+          >
+            <img
+              class="w-2/5 order-1 p-2"
+              src="img/project2.png"
+              alt=""
+              style="border-radius: 12px"
+            />
+            <div class="m-5 order-2">
+              <h3 class="font-custom text-pink-200">Web Development</h3>
+              <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">
+                Food Choices
+              </h3>
+              <p class="font-custom font-light text-md text-slate-300">
+                This site helps you discover some recipes for different foods.
+              </p>
+              <div class="mt-3 flex gap-[1px]">
+                <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-github"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                    />
+                  </svg>
+                  <p class="font-custom">Github</p>
+                </div>
+                <div class="flex ml-6 p-2 rounded-2xl pr-4 bg-pink-500">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-arrow-up-right"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M17 7l-10 10" />
+                    <path d="M8 7l9 0l0 9" />
+                  </svg>
+                  <p class="font-custom">Demo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[45%] flex items-center m-5 bg-slate-800 h-52 border border-slate-700 rounded-md"
+          >
+            <img
+              class="w-2/5 order-1 p-2"
+              src="img/project.png"
+              alt=""
+              style="border-radius: 12px"
+            />
+            <div class="m-5 order-2">
+              <h3 class="font-custom text-pink-200">Web Development</h3>
+              <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">
+                My Portofolio
+              </h3>
+              <p class="font-custom font-light text-md text-slate-300">
+                My personal portfolio showcases the projects I've worked on
+              </p>
+              <div class="mt-3 flex gap-[1px]">
+                <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-github"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                    />
+                  </svg>
+                  <p class="font-custom">Github</p>
+                </div>
+                <div class="flex ml-6 p-2 rounded-2xl pr-4 bg-pink-500">
+                  <svg
+                    class=""
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-arrow-up-right"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M17 7l-10 10" />
+                    <path d="M8 7l9 0l0 9" />
+                  </svg>
+                  <p class="font-custom">Demo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div
+            class="w-[45%] flex items-center m-5 bg-slate-800 h-52 border border-slate-700 rounded-md"
+          >
+            <img
+              class="w-2/5 order-1 p-2"
+              src="img/project3.png"
+              alt=""
+              style="border-radius: 12px"
+            />
+            <div class="m-5 order-2">
+              <h3 class="font-custom text-pink-200">UI/UX Design</h3>
+              <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">
+                Cat Marketplace
+              </h3>
+              <p class="font-custom font-light text-md text-slate-300">
+                Design a cat marketplace to find cat food and accessories.
+              </p>
+              <div class="mt-3 flex gap-[1px]">
+                <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-dribbble"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+                    <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
+                    <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" />
+                  </svg>
+                  <p class="font-custom">Dribble</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[45%] flex items-center m-5 h-52 border border-slate-800 bg-slate-800 rounded-md"
+          >
+            <img
+              class="w-2/5 order-1 p-2"
+              src="img/project4.png"
+              alt=""
+              style="border-radius: 12px"
+            />
+            <div class="m-5 order-2">
+              <h3 class="font-custom text-pink-200">UI/UX Design</h3>
+              <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">
+                English Course
+              </h3>
+              <p class="font-custom font-light text-slate-300 text-md">
+                Design a simple English course with mentors and materials.
+              </p>
+              <div class="mt-3 flex gap-[1px]">
+                <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-dribbble"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                    <path d="M9 3.6c5 6 7 10.5 7.5 16.2" />
+                    <path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" />
+                    <path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" />
+                  </svg>
+                  <p class="font-custom">Dribble</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="bg-pink-200 h-32 mt-5">
-</div>
-   <!-- ini bagian section -->
-   <div class="bg-slate-900 h-96">
-<div class="flex">
-  <div class="w-1/2 pl-10 pt-8 text-slate-200">
-    <h3 class="text-3xl font-semibold m-5 ml-10  font-custom  text-pink-200 text-center">Who Am I?</h3>
-    <p class="w-6/5 ml-5 border border-slate-200 p-5 font-custom"> Hi, I'm Manisa Bachtiar. I love designing websites and have a special
-      interest in coding, especially with Javascript. Currently, I work as a
-      graphic designer at Zetta Creative. I'm actively looking for part-time
-      opportunities in frontend development. If you're interested in
-      collaborating, please reach out. It's worth mentioning that I'm still a
-      beginner in this field. </p>
-  </div>
-  <div class="text-slate-200 w-1/2 pt-8 ml-9">
-  <h3 class="font-custom w-3/4 text-pink-200 text-3xl font-semibold m-5 ml-[46px] text-center">My Interest</h3>
-  <div class="w-4/5 ml-9 border border-slate-200 p-5">
-  <p class=" font-custom">   I love designing UI/UX using Figma, creating simple designs in Canva, drawing anime character in IbisPaint X
-    and developing websites with Javascript and Tailwind. Currently, I'm
-    learning the basic of React, and have a plan to learn Vue as well. 
-   </p>
-   <div class="flex gap-4 mt-5">
-   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" /><path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" /></svg>
-   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" /><path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" /></svg>
-   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" /><path d="M7.5 8h3v8l-2 -1" /><path d="M16.5 8h-2.5a.5 .5 0 0 0 -.5 .5v3a.5 .5 0 0 0 .5 .5h1.423a.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" /></svg>
-   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tailwind" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z" /></svg>
-   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-git" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12 15v-6" /><path d="M15 11l-2 -2" /><path d="M11 7l-1.9 -1.9" /><path d="M13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1 -2.892 0l-7.955 -7.955a2.045 2.045 0 0 1 0 -2.892l7.955 -7.955a2.045 2.045 0 0 1 2.892 0z" /></svg>
-   <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-react" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M6.306 8.711c-2.602 .723 -4.306 1.926 -4.306 3.289c0 2.21 4.477 4 10 4c.773 0 1.526 -.035 2.248 -.102" /><path d="M17.692 15.289c2.603 -.722 4.308 -1.926 4.308 -3.289c0 -2.21 -4.477 -4 -10 -4c-.773 0 -1.526 .035 -2.25 .102" /><path d="M6.305 15.287c-.676 2.615 -.485 4.693 .695 5.373c1.913 1.105 5.703 -1.877 8.464 -6.66c.387 -.67 .733 -1.339 1.036 -2" /><path d="M17.694 8.716c.677 -2.616 .487 -4.696 -.694 -5.376c-1.913 -1.105 -5.703 1.877 -8.464 6.66c-.387 .67 -.733 1.34 -1.037 2" /><path d="M12 5.424c-1.925 -1.892 -3.82 -2.766 -5 -2.084c-1.913 1.104 -1.226 5.877 1.536 10.66c.386 .67 .793 1.304 1.212 1.896" /><path d="M12 18.574c1.926 1.893 3.821 2.768 5 2.086c1.913 -1.104 1.226 -5.877 -1.536 -10.66c-.375 -.65 -.78 -1.283 -1.212 -1.897" /><path d="M11.5 12.866a1 1 0 1 0 1 -1.732a1 1 0 0 0 -1 1.732z" /></svg>
-</div>
-</div>
-  
-</div>
-</div>
-   </div>
-   
-
-  <div class="text-left h-[630px] pl-7 border-t pt-5 bg-slate-900 border-slate-600 text-white">
-    <h3 class="mt-5 font-custom font-semibold ml-4 text-pink-200 text-3xl">
-      My Projects
-    </h3>
-    <div class="flex">
-    <div class="w-[45%] flex items-center m-5 bg-slate-800 h-52  rounded-md">
-      <img class="w-2/5 order-1 p-2" src="img/project2.png" alt="" style="border-radius: 12px" />
-      <div class=" m-5 order-2">
-        <h3 class="font-custom text-pink-200"> Web Development</h3>
-        <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">Food Choices</h3>
-        <p class="font-custom font-light text-md text-slate-300">This site helps you discover some recipes for different foods.</p>
-        <div class="mt-3 flex gap-[1px]">
-          <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
-        <svg class="" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
-        <p class="font-custom">Github</p>
+      <div class="flex pt-9 bg-slate-900 border-t border-slate-600 h-[590px]">
+        <div
+          class="w-1/2 p-5 ml-12 h-[500px]"
+          style="
+            /* From https://css.glass */
+            background: rgba(85, 84, 84, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(85, 84, 84, 0.3);
+          "
+          ;
+        >
+          <h3
+            class="text-3xl mt-5 font-custom font-semibold text-pink-500 text-center"
+          >
+            Get in touch
+          </h3>
+          <div class="flex">
+            <div class="w-[40%] mt-2 ml-5">
+              <h3 class="mt-5 font-custom font-base text-slate-200">
+                Your Name
+              </h3>
+              <input
+                class="hover:border-gray-700 outline-none text-white bg-transparent border-b-2 border-pink-400 w-[100%]"
+                type="text"
+              />
+            </div>
+            <div class="ml-auto w-[40%] mt-2 mr-5">
+              <h3 class="mt-5 font-custom font-base text-slate-200">
+                Your Email
+              </h3>
+              <input
+                class="outline-none text-white bg-transparent border-b-2 border-pink-400 w-[100%]"
+                type="text"
+              />
+            </div>
+          </div>
+          <h3 class="mt-7 ml-5 text-slate-200 font-custom">Message</h3>
+          <textarea
+            class="p-2 overflow-hidden text-white resize-none appearance-none rounded w-[92%] mt-3 ml-5 bg-slate-700 h-40"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <div class="bg-pink-500 w-[92%] ml-5 mt-5 h-10 rounded">
+            <h3 class="font-custom font-semibold text-center p-2 text-slate-50">
+              Send Message
+            </h3>
+          </div>
         </div>
-        <div class="flex ml-6 p-2 rounded-2xl pr-4 bg-pink-500 ">
-        <svg class="" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 7l-10 10" /><path d="M8 7l9 0l0 9" /></svg>
-        <p class="font-custom">Demo</p>
-        </div>
+        <div class="bg-slate-900 w-[40%] ml-20 h-80">
+          <h3 class="text-3xl font-custom font-semibold text-pink-500 mt-9">
+            Contact
+          </h3>
+          <h3 class="font-custom text-slate-300 mt-3 w-[80%]">
+            Please feel free to reach out to me at your convenience. I am
+            available full-time and open to any inquiries or discussions you may
+            have.
+          </h3>
+          <div class="flex">
+            <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"
+                />
+                <path d="M3 7l9 6l9 -6" />
+              </svg>
+            </div>
+            <p class="mt-7 ml-2 font-custom text-pink-200">
+              manisaBachtiar17@gmail.com
+            </p>
+          </div>
+          <div class="flex">
+            <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-map-pin"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path
+                  d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                />
+              </svg>
+            </div>
+            <p class="mt-7 ml-2 font-custom text-pink-200">
+              Pandeglang, Banten
+            </p>
+          </div>
+          <div class="flex">
+            <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-linkedin"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+                />
+                <path d="M8 11l0 5" />
+                <path d="M8 8l0 .01" />
+                <path d="M12 16l0 -5" />
+                <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+              </svg>
+            </div>
+            <p class="mt-7 ml-2 font-custom text-pink-200">Linkedin</p>
+          </div>
+          <div class="flex">
+            <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-github"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                />
+              </svg>
+            </div>
+            <p class="mt-7 ml-2 font-custom text-pink-200">Github</p>
+          </div>
+          <div class="flex">
+            <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-instagram"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+                />
+                <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                <path d="M16.5 7.5l0 .01" />
+              </svg>
+            </div>
+            <p class="mt-7 ml-2 font-custom text-pink-200">Instagram</p>
+          </div>
         </div>
       </div>
-    </div>    
-    <div class="w-[45%] flex items-center m-5 bg-slate-800 h-52 border border-slate-700 rounded-md">
-      <img class="w-2/5 order-1 p-2" src="img/project.png" alt="" style="border-radius: 12px" />
-      <div class=" m-5 order-2">
-        <h3 class="font-custom text-pink-200"> Web Development</h3>
-        <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">My Portofolio</h3>
-        <p class="font-custom font-light text-md text-slate-300">
-          My personal portfolio showcases the projects I've worked on</p>
-        <div class="mt-3 flex gap-[1px]">
-          <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
-        <svg class="" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
-        <p class=" font-custom">Github</p>
-        </div>
-        <div class="flex ml-6 p-2 rounded-2xl pr-4 bg-pink-500 ">
-        <svg class="" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M17 7l-10 10" /><path d="M8 7l9 0l0 9" /></svg>
-        <p class="font-custom">Demo</p>
-        </div>
-        </div>
-      </div>
-    </div>    
-  </div>
-  <div class="flex">
-    <div class="w-[45%] flex items-center m-5 bg-slate-800 h-52 border border-slate-700 rounded-md">
-      <img class="w-2/5 order-1 p-2" src="img/project3.png" alt="" style="border-radius: 12px" />
-      <div class=" m-5 order-2">
-        <h3 class="font-custom text-pink-200"> UI/UX Design</h3>
-        <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">Cat Marketplace</h3>
-        <p class="font-custom font-light text-md text-slate-300">Design a cat marketplace to find cat food and accessories.</p>
-        <div class="mt-3 flex gap-[1px]">
-          <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-dribbble" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 3.6c5 6 7 10.5 7.5 16.2" /><path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" /><path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" /></svg>
-        <p class="font-custom ">Dribble</p>
-        </div>
-        </div>
-      </div>
-    </div>     
-    <div class="w-[45%] flex items-center m-5 h-52 border border-slate-800 bg-slate-800 rounded-md">
-      <img class="w-2/5 order-1 p-2" src="img/project4.png" alt="" style="border-radius: 12px" />
-      <div class="m-5 order-2">
-        <h3 class="font-custom text-pink-200"> UI/UX Design</h3>
-        <h3 class="mb-1 font-custom font-medium text-2xl text-pink-500">English Course</h3>
-        <p class="font-custom font-light text-slate-300 text-md">Design a simple English course with mentors and materials.</p>
-        <div class="mt-3 flex gap-[1px]">
-          <div class="flex p-2 rounded-2xl pr-3 bg-pink-500">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-dribbble" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M9 3.6c5 6 7 10.5 7.5 16.2" /><path d="M6.4 19c3.5 -3.5 6 -6.5 14.5 -6.4" /><path d="M3.1 10.75c5 0 9.814 -.38 15.314 -5" /></svg>
-        <p class="font-custom ">Dribble</p>
-        </div>
-        </div>
-      </div>
-    </div>    
-  </div>
-  </div>
-  <div class="flex pt-9  bg-slate-900 border-t border-slate-600 h-[600px]">
-  <div class="w-1/2  p-5 ml-12 h-[500px]" style="
-/* From https://css.glass */
-background: rgba(85, 84, 84, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(85, 84, 84, 0.3)";>
-    <h3 class="text-3xl mt-5 font-custom font-semibold text-pink-500 text-center ">Get in touch</h3>
-    <div class="flex">
-      <div class="w-[40%] mt-2 ml-5">
-  <h3 class=" mt-5 font-custom font-base text-slate-200">Your Name</h3>
-  <input class="hover:border-gray-700 outline-none text-white bg-transparent border-b-2 border-pink-400 w-[100%] " type="text">
-  </div>
-  <div class="ml-auto w-[40%] mt-2 mr-5">
-  <h3 class="mt-5 font-custom font-base  text-slate-200">Your Email</h3>
-  <input  class="outline-none text-white bg-transparent border-b-2 border-pink-400  w-[100%] " type="text">
-  </div>
-  </div>
-  <h3 class="mt-7 ml-5  text-slate-200 font-custom">Message</h3>
-  <textarea class="p-2 overflow-hidden text-white resize-none appearance-none  rounded w-[92%] mt-3 ml-5 bg-slate-700 h-40" name="" id="" cols="30" rows="10"></textarea>
- <div class="bg-pink-500 w-[92%] ml-5 mt-5 h-10 rounded">
-  <h3 class="font-custom font-semibold text-center p-2 text-slate-50">Send Message
-  </h3>
-</div>
-  </div>
-  <div class="bg-slate-900 w-[40%] ml-20 h-80 ">
-    <h3 class="text-3xl font-custom font-semibold text-pink-500 mt-9">Contact</h3>
-    <h3 class=" font-custom text-slate-300 mt-2 w-[80%]">Please feel free to reach out to me at your convenience. I am available full-time and open to any inquiries or discussions you may have.</h3>
-    <div class="flex">
-    <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
-  </div>
-    <p class="mt-7 ml-2  font-custom text-pink-200"> manisaBachtiar17@gmail.com</p>
-  </div>
-  <div class="flex">
-  <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>
-  </div>
-  <p class=" mt-7 ml-2  font-custom text-pink-200 ">Pandeglang, Banten</p>
-  </div>
-  <div class="flex">
-    <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" /><path d="M8 11l0 5" /><path d="M8 8l0 .01" /><path d="M12 16l0 -5" /><path d="M16 16v-3a2 2 0 0 0 -4 0" /></svg>
     </div>
-    <p class=" mt-7 ml-2  font-custom text-pink-200 ">Linkedin</p>
-    </div>
-    <div class="flex">
-      <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
-      </div>
-      <p class=" mt-7 ml-2  font-custom text-pink-200 ">Github</p>
-      </div>
-      <div class="flex">
-        <div class="p-2 mt-5 bg-pink-200 w-[40px] rounded-full h-[40px]">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" /><path d="M16.5 7.5l0 .01" /></svg>
-        </div>
-        <p class=" mt-7 ml-2  font-custom text-pink-200 ">Instagram</p>
-        </div>
-        
-  </div>
-  </div>
-  </div>
-</body>
-
+  </body>
 </html>
