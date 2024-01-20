@@ -34,6 +34,11 @@ function toggle2() {
 }
 close.addEventListener('click', toggle);
 bar.addEventListener('click', toggle);
+document.getElementById('btn').addEventListener('click', function() {
+  window.location.href = '#about';
+});
+
+
 
 const buttonUrls = [
   'https://github.com/ManisaBachtiar/Food-Choices',
