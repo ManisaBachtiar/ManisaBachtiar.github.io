@@ -35,8 +35,20 @@ function toggle2() {
 close.addEventListener('click', toggle);
 bar.addEventListener('click', toggle);
 
+const buttonUrls = [
+  'https://github.com/ManisaBachtiar/Food-Choices',
+  'https://food-choices.vercel.app/',
+  'https://github.com/ManisaBachtiar/manisaBachtiar.github.io',
+  'https://manisabachtiar.github.io/',
+  'https://dribbble.com/shots/17144625-Cats-Marketplace',
+  'https://dribbble.com/shots/17219512-English-Course'
+];
 
-document.getElementById('btn1').addEventListener('click', function() {
-  
-  window.location.href = 'https://www.example.com';
-});
+for (let i = 1; i <= buttonUrls.length; i++) {
+  const btn = document.getElementById(`btn${i}`);
+  if (btn) {
+    btn.addEventListener('click', function() {
+      window.location.href = buttonUrls[i - 1];
+    });
+  }
+}
