@@ -35,3 +35,8 @@ function toggle2() {
 close.addEventListener('click', toggle);
 bar.addEventListener('click', toggle);
 
+
+document.getElementById('btn1').addEventListener('click', function() {
+  
+  window.location.href = 'https://www.example.com';
+});
