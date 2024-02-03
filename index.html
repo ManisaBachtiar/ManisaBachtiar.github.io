@@ -296,13 +296,13 @@
         </div>
       </div>
     </div> -->
-<div class="bg-black h-auto py-5  ">
-  <div class="flex w-full justify-center items-center px-3 ">
-    <button class="bg-[#FE1A7E] py-3 mx-1 font-custom font-bold text-md text-white justify-center px-1 w-[22rem] 2xl:w-[25rem] rounded-md">About Me</button>
-    <button class="bg-[#FE1A7E] mx-1 py-3 font-custom font-bold text-md text-white justify-center px-1 w-[22rem] 2xl:w-[25rem] rounded-md">My Skills</button>
-    <button class="bg-[#FE1A7E] py-3 font-custom font-bold text-md text-white justify-center px-1 w-[22rem] 2xl:w-[25rem] rounded-md mx-1">My Content</button>
+<div class=" bg-black h-auto py-5 2xl:text-xl ">
+  <div class="btnSection flex w-full justify-center items-center px-3 ">
+    <button class="bg-[#FE1A7E] py-3 mx-1 font-custom font-bold text-md text-white justify-center px-1 w-[22rem] 2xl:w-[25rem] rounded-md btnS"  data-id="about">About Me</button>
+    <button class="bg-[#FE1A7E] mx-1 py-3 font-custom font-bold text-md text-white justify-center px-1 w-[22rem] 2xl:w-[25rem] rounded-md btnS"  data-id="skill">My Skills</button>
+    <button class="bg-[#FE1A7E] py-3 font-custom font-bold text-md text-white justify-center px-1 w-[22rem] 2xl:w-[25rem] rounded-md mx-1 btnS"  data-id="content">My Content</button>
 </div>
-  <div class="flex flex-col 2md:flex-row md:flex-col items-center py-9 xl:px-44 lg:px-20 2xl:px-56 2md:px-9 md:px-9 2sm:px-10 sm:px-9 xs:px-9 px-9">
+  <div class="flex article  flex-col 2md:flex-row md:flex-col items-center py-9 xl:px-44 lg:px-20 2xl:px-56 2md:px-9 md:px-9 2sm:px-10 sm:px-9 xs:px-9 px-9" id="about">
     <img src="/img/about.jpg" alt="" class="mr-4 rounded-lg  w-1/1 md:w-1/2 2md:w-2/5 2sm:w-1/2 sm:w-1/2 xs:w-1/2"> 
     <div class="text-white">
       <div class="flex flex-col">
@@ -320,7 +320,69 @@
     <h4>lorem ipsum dolorrr</h4>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet dolore voluptates ipsum ex doloremque molestiae dolor porro? Repellendus quidem fugiat dolorem officia veniam consequatur voluptate consequuntur, nesciunt voluptatem eaque velit!</p>
   </div> -->
-<!-- </div> -->
+ 
+<div class="hidden article container mx-auto mt-8"  id="skill">
+  <div class="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 md:grid-cols-3 2sm:grid-cols-2 gap-4 px-10 text-white font-custom 2xl:text-lg ">
+
+    <!-- Kotak di atas -->
+    <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-html5.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold  ml-2">HTML</p></div>
+      
+      <p>Figma is a collaborative design tool, enabling teams to create, share, and prototype user interfaces seamlessly.</p>
+    </div>
+
+    <div class="bg-[#FE1A7E] px-6 py-6 rounded-md shadow-md">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-css3.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">CSS</p></div>
+      <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of HTML documents.</p>
+    </div>
+
+    <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-javascript.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">Javascript</p></div>
+      <p>JavaScript is a versatile scripting language used to create dynamic and interactive web content and applications.</p>
+    </div>
+    <div class="bg-[#fe1a7e] px-6 py-6 rounded-md shadow-md">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-tailwind.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">Tailwind</p></div>
+      <p>Tailwind CSS is a utility-first CSS framework that simplifies styling and design by using pre-defined classes.</p>
+    </div>
+
+    <!-- Kotak di bawah -->
+    <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md  md:mt-0">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-vscode.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">VSCode</p></div>
+      <p>Visual Studio Code (VS Code) is a free, open-source code editor developed by Microsoft for programming tasks.</p>
+    </div>
+
+    <div class="bg-[#fe1a7e] px-6 py-6 rounded-md shadow-md  md:mt-0">
+      <div class="flex flex-row items-center">
+        <img src="img/api.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">API</p></div>
+      <p>API (Application Programming Interface) is a set of rules enabling software communication for seamless integration.</p>
+    </div>
+
+    <div class="bg-[#424242] px-6 py-6 rounded-md shadow-md  md:mt-0">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-github.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">Github</p></div>
+      <p>GitHub is a web-based platform for version control, code collaboration, and project management for developers.</p>
+    </div>
+    
+    <div class="bg-[#FE1A7E] px-6 py-6 rounded-md shadow-md  md:mt-0">
+      <div class="flex flex-row items-center">
+        <img src="img/brand-figma.png" alt="" class="w-1/4">
+        <p class="text-xl font-semibold ml-2">Figma</p></div>
+      <p>Figma is a collaborative design tool, enabling teams to create, share, and prototype user interfaces seamlessly.</p>
+    </div>
+</div>
+  </div>
 </div>
       <div id="project"
         class="scroll-mt-[3.5rem]  text-left h-auto lg:h-[630px] pt-5 bg-slate-900 text-white"

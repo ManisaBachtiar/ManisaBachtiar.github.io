@@ -2,6 +2,10 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbw4w5CNGwkej9UxeaZlY9
 const form = document.forms['submit-to-google-sheet']
 const btnSend =document.querySelector('.submit');
 const load = document.querySelector('.loading');
+const buttons =document.querySelector('.btnSection');
+const button = document.querySelectorAll('.btnS')
+let article = document.querySelectorAll(".article");
+button[0].classList.add('bg-pink-400')
 form.addEventListener('submit', e => {
   e.preventDefault()
   load.classList.toggle('hidden');
@@ -57,3 +61,20 @@ for (let i = 1; i <= buttonUrls.length; i++) {
     });
   }
 }
+buttons.addEventListener("click", function (e) {
+  const id = e.target.dataset.id;
+  
+  if (id) {
+    button.forEach(function (bt) {
+      bt.classList.remove("bg-pink-400");
+      e.target.classList.add("bg-pink-400");
+    });
+    article.forEach(function (art) {
+      art.classList.add("hidden");
+    });
+    const element = document.getElementById(id);
+    console.log(element)
+    element.classList.remove("hidden");
+    console.log(element)
+  }
+});
