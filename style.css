@@ -771,6 +771,18 @@ video {
   margin-left: -14%;
 }
 
+.ml-\[-9px\] {
+  margin-left: -9px;
+}
+
+.ml-\[-12px\] {
+  margin-left: -12px;
+}
+
+.ml-\[-16px\] {
+  margin-left: -16px;
+}
+
 .inline {
   display: inline;
 }
@@ -1316,6 +1328,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1671,6 +1688,11 @@ video {
     padding-right: 32%;
   }
 
+  .xs\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .xs\:pb-5 {
     padding-bottom: 1.25rem;
   }
@@ -1691,12 +1713,21 @@ video {
 }
 
 @media (min-width: 520px) {
+  .sm\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .sm\:ml-1 {
     margin-left: 0.25rem;
   }
 
   .sm\:ml-2 {
     margin-left: 0.5rem;
+  }
+
+  .sm\:ml-\[-16px\] {
+    margin-left: -16px;
   }
 
   .sm\:block {
@@ -1717,6 +1748,14 @@ video {
 
   .sm\:w-\[90\%\] {
     width: 90%;
+  }
+
+  .sm\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .sm\:w-\[80\%\] {
+    width: 80%;
   }
 
   .sm\:translate-x-1 {
@@ -1742,6 +1781,16 @@ video {
   .sm\:px-\[34\%\] {
     padding-left: 34%;
     padding-right: 34%;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .sm\:pb-\[0\.3rem\] {
@@ -1831,6 +1880,16 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:mx-9 {
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+  }
+
   .md\:ml-0 {
     margin-left: 0px;
   }
@@ -1849,6 +1908,10 @@ video {
 
   .md\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .md\:ml-\[5px\] {
+    margin-left: 5px;
   }
 
   .md\:block {
@@ -1972,6 +2035,11 @@ video {
 }
 
 @media (min-width: 1000px) {
+  .\32md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .\32md\:ml-2 {
     margin-left: 0.5rem;
   }
@@ -2052,6 +2120,14 @@ video {
     width: 110%;
   }
 
+  .\32md\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .\32md\:w-\[30\%\] {
+    width: 30%;
+  }
+
   .\32md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2094,6 +2170,11 @@ video {
 @media (min-width: 1024px) {
   .lg\:m-5 {
     margin: 1.25rem;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .lg\:ml-11 {
