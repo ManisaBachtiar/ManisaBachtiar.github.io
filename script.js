@@ -132,7 +132,7 @@ function displayCard(cardItemsItems) {
   let display = cardItems.map(function (item) {
     return ` 
     
-    <div class="mx-auto grid pb-9 rounded-md 2md:grid-cols-2 bg-slate-800 border border-slate-800 w-[90%] sm:px-9 px-0 2md:px-7 py-5 my-5">
+    <div class="mx-auto grid pb-9 rounded-md 2md:grid-cols-2 bg-zinc-900 border border-zinc-800 w-[90%] sm:px-9 px-0 2md:px-7 py-5 my-5">
       <div class="w-[100%] ">
         <img class="rounded-lg mx-auto 2md:hidden w-[85%]  sm:w-[90%]" src="${item.img2}" alt="">
         <img class="hidden 2md:grid rounded-lg xl:w-[80%] lg:w-[85%]" src="${item.img1}" alt="">
