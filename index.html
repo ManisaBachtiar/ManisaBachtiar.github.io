@@ -29,6 +29,7 @@
       <div class="close hidden absolute right-7 z-20 md:hidden">
         <i class="transition-transform transform hover:scale-110   fa-solid fa-xmark fa-xl text-pink-200"></i>
       </div>
+
       <div
         class="navbar hidden md:block absolute p-16 right-0 pb-[700px] xs:pb-96 mt-[700px] xs:mt-96 md:p-5 pt-80 md:pb-0 md:pt-0 md:mt-0 md:bg-transparent bg-[rgba(108,3,43,0.57)] backdrop-blur-[5.1px] md:backdrop-blur-none">
         <ul class="  md:flex gap-4  xs:w-1/2 xs:mr-0 list-none font-custom text-white font-semibold ">
@@ -43,6 +44,7 @@
         </ul>
       </div>
     </div>
+
     <!-- ini bagian landing page -->
     <div
       class="lg:px-16 sm:px-7 px-5 grid 2sm:grid-cols-2 pb-2 sm:pb-[0.3rem] lg:pb-[1.8rem] 2sm:pb-16 bg-[#FE1A7E]">
@@ -66,7 +68,7 @@
         src="img/u.png" alt="img" />
     </div>
     <div class="bg-pink-200  h-32 "></div>
-    <div class=" bg-black py-5 ">
+    <div class=" py-5 scroll-mt-[4rem] bg-black" id="about">
       <div class="btnSection flex w-full justify-center items-center px-3 text-white font-custom font-bold text-md">
         <button
           class="bg-[#FE1A7E] py-3 mx-1 px-1 w-[22rem] rounded-md btnS"
@@ -80,7 +82,7 @@
       </div>
       <div
         class=" flex article flex-col 2md:flex-row items-center py-9 xl:px-44 lg:px-20 md:px-9 2sm:px-10  px-9"
-        id="about">
+        >
         <img src="/img/about.jpg" alt="" class="mr-4 rounded-lg  w-1/1 md:w-1/2 2md:w-2/5 xs:w-1/2">
         <div class="text-white font-custom text-lg">
           <div class="flex flex-col">
@@ -189,39 +191,14 @@
         </div>
       </div>
     </div>
-    <div class="mx-auto bg-black border-t border-slate-200 pb-5 xl:px-9 2md:px-0 lg:px-0">
-      <div class="mx-auto grid pb-9 rounded-md 2md:grid-cols-2 bg-slate-800 border border-slate-800 w-[90%] sm:px-9 px-0 2md:px-7 py-5 my-5">
-        <div class="w-[100%] ">
-          <img class="rounded-lg mx-auto 2md:hidden w-[85%]  sm:w-[90%]" src="img/pro5.png" alt="">
-          <img class="hidden 2md:grid rounded-lg xl:w-[80%] lg:w-[85%]" src="img/project2.png" alt="">
-          <div class="mx-auto  md:mx-9 sm:mx-10 pt-3 w-5/6 ">
-            <div class="flex flex-row text-white sm:ml-[-16px] font-custom  ">
-              <button class="bg-[#FE1A7E] bg-opacity-65 px-2 py-1 rounded-lg sm:px-4">HTML</button>
-              <button class="ml-5 bg-[#FE1A7E] px-2 sm:px-4 bg-opacity-65 py-1 rounded-lg">CSS</button>
-              <button class="ml-5 bg-[#FE1A7E] px-2 sm:px-4 bg-opacity-65 py-1 sm-px-4 rounded-lg">Javascript</button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="mx-auto  w-[85%] md:w-[90%] lg:w-[110%]  text-white py-3 xl:ml-[-14%] ml-[5%] lg:ml-[-10%] 2md:ml-[5%] 2md:w-[90%] sm:ml-[24px]  font-custom text-lg ">
-            <h1 class="font-medium text-2xl text-pink-500" >
-              Food Choice</h1>
-            <p class="text-pink-200 text-lg  ">Web Development</p>
-            <p class="font-custom ">This project is for people seeking specific recipes, offering a diverse database with filters for
-              breakfast, lunch, dinner, and drinks. It also includes allergy information for a healthier cooking
-              experience.</p>
-            <h1 class="pt-2 font-medium text-2xl text-pink-500 ">Lesson Learned</h1>
-            <p class="">In this project, I've gained knowledge about working with APIs, fetching and filtering data.
-              I've also learned how to implement pagination, all using JavaScript, without relying on any frameworks.
-              This experience has significantly enhanced my JavaScript skills.</p>
-          </div>
-          <div class="lg:ml-[-80px] 2md:ml-[-10px] xl:ml-[-105px] text-white 2md:px-9 md:px-9 px-7 xs:px-8">
-            <button class="border border-pink-200 px-5 py-2 font-custom rounded-lg">See Demo</button>
-            <button class="border border-pink-200 px-5 py-2 ml-2 font-custom rounded-lg">See Source</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Ini bagian card project -->
+    <div class="bg-black">
+    <h1 class="bg-slate-900 px-9 font-custom h-96 font-bold">My Project</h1>
+  </div>
+    <div class="py-9 bg-black border-t border-slate-200" id="project">
+      <h1>My PRojects</h1>
+      <div class="containerCard mx-auto bg-black pb-5 xl:px-9 2md:px-0 lg:px-0"></div>
+  </div>
     <!-- ini bagian kontak -->
     <div id="contact"
       class="scroll-mt-[4rem]  md:flex md:flex-row flex flex-col pt-9 bg-black border-t border-slate-600 pb-10 h-auto">
@@ -262,12 +239,9 @@
         <textarea id="message" name="message"
           class="p-2 overflow-hidden text-white resize-none appearance-none rounded w-[87%] md:w-[90%] 2md:w-[92%] xs:w-[90%] mt-3 ml-5 bg-slate-700 h-40"
           cols="30" rows="10" required></textarea>
-
-
         <button
           class="submit hover:bg-pink-700 bg-pink-500 w-[87%] 2md:w-[92%] md:w-[90%] xs:w-[90%] ml-5 mt-5 h-10 rounded font-custom font-medium"
           type="submit">Submit</button>
-
         <button disabled type="button"
           class="loading hidden font-custom bg-pink-500 px-[27%] lg:px-[38%] xs:px-[32%] sm:px-[34%] 2sm:px-[37%] md:px-36  ml-5 mt-5 h-10  py-2.5 me-2 text-sm font-medium text-gray-900 t rounded-lg  hover:bg-pink-700  focus:z-10 focus:ring-2 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 items-center">
           <svg aria-hidden="true" role="status"
